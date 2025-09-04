@@ -1,17 +1,22 @@
 {
-  "name": "@armin4fun/react-hooks",
+  "name": "@armin4fun/use-react-hooks",
   "version": "0.0.1",
   "description": "A React Hooks library build by rollup and typescript.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "prepare": "npm run build"
   },
-  "repository": "https://github.com/arminfang/use-hooks",
+  "repository": {
+    "url": "https://github.com/arminfang/use-react-hooks"
+  },
   "keywords": [
     "react",
     "hooks",
